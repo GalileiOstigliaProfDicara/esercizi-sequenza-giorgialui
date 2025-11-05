@@ -11,5 +11,7 @@ int main() {
     scanf("%d", &caramelle);
     printf("inserisci numero di amici:");
     scanf("%d", &amici);
-    caramelle_divise= caramelle/amici;
-    printf("")
+    caramelle_divise = caramelle/amici;
+    printf("ogni amico ha %d caramelle_divise");
+    resto = caramelle % amici;
+    printf("rimangono %d resto");
